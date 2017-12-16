@@ -1,0 +1,9 @@
+
+.container {
+  background: #BB0000;
+  width: 100%;
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  height: 400px;
+  max-height: 100%;
+}
