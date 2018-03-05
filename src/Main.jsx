@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Home from './Home'
 import Projekte from './Projekte' // projekte
-import Leben from './Leben'   // leben
+import  Leben  from './LebenClass'   // leben
 
 
 var mainStyles = {
