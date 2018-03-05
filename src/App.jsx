@@ -1,7 +1,7 @@
 // App ist quasi mein Container
 
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';    // --> erstmal weg damit
 
 import Header from './Header'
 import Main from './Main'

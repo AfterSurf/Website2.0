@@ -12,21 +12,34 @@ var headerStyle = {
   justifyContent: 'space-around',
   alignItems: 'center',
   paddingTop: 20,
+  paddinLeft: 40,
+  paddinRight: 40,
+}
+
+var homeStyle = {
+  color: '#9BBC29',
+}
+
+var projekteStyle = {
+  color: '#E79A46',
+}
+
+var lebenStyle = {
+  color: '#64C7DC',
 }
 
 
 const Header = () => (
   <header>
-  <div >
+    <div >
       <nav>
         <ul style = { headerStyle }>
-          <Link to='/'>Home</Link>
-          <Link to='/projekte'>Projekte</Link>
-          <Link to='/leben'>Leben</Link>
+          <Link to='/' style = { homeStyle }>Home</Link>
+          <Link to='/projekte' style = { projekteStyle } >Projekte</Link>
+          <Link to='/leben' style = { lebenStyle } >Leben</Link>
         </ul>
       </nav>
-</div>
-
+    </div>
   </header>
 )
 

@@ -11,7 +11,6 @@ import Leben from './Leben'   // leben
 var mainStyles = {
   display: 'flex',
   flex: 1,
-  alignItems: 'stretch',
   justifyContent: 'space-around',
   alignItems: 'center',
   maxHeigth: '80%',
