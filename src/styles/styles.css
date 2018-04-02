@@ -55,7 +55,7 @@
   align-self: stretch;
   width: null;
   max-width: 100%;
-}
+};
 
 .projekteStyle {
   color: #64C7DC;
@@ -65,7 +65,7 @@
   font-variant: normal;
   font-weight: 500;
   text-shadow: 0.05em 0.02em rgb(83, 120, 168);
-}
+};
 
 
 .rowStyles  {
@@ -73,7 +73,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-}
+};
 
 .centerStyles {
   align-items: center;
@@ -81,29 +81,53 @@
   justify-content: center;
   flex-direction: column;
   max-width: 400;
-  max-heigth: 80;
-}
+  /* max-heigth: 80; */
+};
 
   // Home
 .styleHomeImage {
     margin: auto;
     height: 400;
     width: 100;
-  }
+  };
 
 .centerStyles {
     align-items: center;
     max-width: 500;
-  }
+  };
 
 .divStyles {
   align-Items: center;
-}
+};
 
 .mainStyles {
   display: flex;
   flex: 1;
   justify-content: space-around;
   align-items: center;
-  max-heigth: 80%;
-}
+  /* max-heigth: 80%; */
+};
+
+   /* Header */
+  .headerStyle {
+    display: flex;
+    flex: 1;
+    align-Items: stretch;
+    justify-Content: space-around;
+    align-Items: center;
+    padding-Top: 20px;
+    padding-Left: 40px;
+    padding-Right: 40px;
+};
+
+  .homeStyle  {
+    color: #9BBC29;
+  };
+
+  .projekteStyle {
+    color: #E79A46;
+  };
+
+  .lebenStyle {
+    color: #64C7DC;
+  };

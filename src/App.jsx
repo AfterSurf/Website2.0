@@ -3,8 +3,8 @@
 import React, { Component } from 'react';
 // import './App.css';    // --> erstmal weg damit
 
-import Header from './Header'
-import Main from './MainClass'
+import Header from './HeaderClass';
+import Main from './MainClass';
 
 class App extends Component {
   render() {

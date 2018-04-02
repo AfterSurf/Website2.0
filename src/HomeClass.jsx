@@ -12,7 +12,7 @@ export default class Home extends React.Component {
     return (
       <div className = {styles.centerStyles}>
         <h1>Welcome to the HOME Website!</h1>
-        <img className={styles.styleHomeImage} src={homeImage} />
+        <img className = {styles.styleHomeImage} src={homeImage} />
       </div>
     )
   }
