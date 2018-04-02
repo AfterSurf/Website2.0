@@ -59,7 +59,7 @@ var websiteText = 'Tobias Rösch lebt in Berlin. Aufgewachsen in der Nähe von D
 ' Ausflüge führten ihn zum Radio und Film, wo er sich in Sendungen, Artikeln und Beiträgen unter anderem mit der Musikszene seiner Heimatstadt Dresden in den 40ern, 50ern und 60ern des letzten Jahrhunderts auseinandersetze. ';
 
 const Leben = () => (
-  <div
+  <div>
       <div style={rowStyles}>
         <div style = {centerStyles}>
           <img style ={ styleLebenImage } src={lebenImage}/>

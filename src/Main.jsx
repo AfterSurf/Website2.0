@@ -3,9 +3,9 @@ import { Switch, Route } from 'react-router-dom'
 
 // Components:
 
-import Home from './Home'
-import Projekte from './Projekte' // projekte
-import  Leben  from './LebenClass'   // leben
+import Home from './HomeClass '
+import Projekte from './ProjekteClass' // projekte
+import Leben from './LebenClass'   // leben
 
 
 var mainStyles = {

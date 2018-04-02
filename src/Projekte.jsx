@@ -1,13 +1,6 @@
 import React from 'react'
 import projekteImage from './bilder/projekte.jpg';
 
-// var styleProjekteImage = {
-// flex: 1,
-// justifyContent: 'center',
-// height: 200,
-// padding: 45,
-//
-//   }
 
 var styleProjekteImage = {
   flex: 1,

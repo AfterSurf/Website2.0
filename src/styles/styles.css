@@ -9,27 +9,27 @@
   }
 
   .styleLebenImage {
-  flex: 1;
-  align-self: stretch;
-  width: 0;
-  max-width: 100%;
+    flex: 1;
+    align-self: stretch;
+    width: 0;
+    max-width: 100%;
   };
 
   .centerStyles {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 400px;
-  max-heigth: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    max-heigth: 80px;
   };
 
   .textStyles {
-  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
-  font-size: 22;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
+    font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+    font-size: 22;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
 
     /* Padding */
     padding-left: 5px;
@@ -37,13 +37,73 @@
   };
 
   .lebenStyle {
-    color: #64C7DC;
-    font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
-    font-size: 32;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
+      color: #64C7DC;
+      font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+      font-size: 32;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
 
-     text-shadow: 0.05em 0.02em rgb(83, 120, 168);
+      text-shadow: 0.05em 0.02em rgb(83, 120, 168);
      /* lineHeight: 26.4; */
   };
+
+/* Projekte */  /* --> noch überarbeiten  */
+
+.styleProjekteImage {
+  flex: 1;
+  align-self: stretch;
+  width: null;
+  max-width: 100%;
+}
+
+.projekteStyle {
+  color: #64C7DC;
+  font-family: Book, Antiqua, Palatino, Palatino, Linotype, Palatino LT STD, Georgia, serif;
+  font-size: 32;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  text-shadow: 0.05em 0.02em rgb(83, 120, 168);
+}
+
+
+.rowStyles  {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.centerStyles {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400;
+  max-heigth: 80;
+}
+
+  // Home
+.styleHomeImage {
+    margin: auto;
+    height: 400;
+    width: 100;
+  }
+
+.centerStyles {
+    align-items: center;
+    max-width: 500;
+  }
+
+.divStyles {
+  align-Items: center;
+}
+
+.mainStyles {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  max-heigth: 80%;
+}

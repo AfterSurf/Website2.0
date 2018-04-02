@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // import './App.css';    // --> erstmal weg damit
 
 import Header from './Header'
-import Main from './Main'
+import Main from './MainClass'
 
 class App extends Component {
   render() {
