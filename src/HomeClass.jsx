@@ -5,13 +5,17 @@ import homeImage from './bilder/homeAngepasst.jpg';
 export default class Home extends React.Component {
   constructor() {
     super();
-  }
+  };
+
+
 
   render() {
 
+    var websiteText = "Tobias Rösch Kontrabass";
+
     return (
       <div className = {styles.centerStyles}>
-        <h1>Welcome to the HOME Website!</h1>
+        <h1 className = {styles.styleHomeText}>{websiteText}</h1>
         <img className = {styles.styleHomeImage} src={homeImage} />
       </div>
     )

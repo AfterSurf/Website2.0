@@ -15,9 +15,9 @@ export default class Home extends React.Component {
         <div >
           <nav>
             <ul className = { styles.headerStyle }>
-              <Link to='/' className = {style.homeStyle}>HomeA</Link>
-              <Link to='/projekte' className = {style.projekteStyle} >ProjekteA</Link>
-              <Link to='/leben' className = {style.lebenStyle} >LebenA</Link>
+              <Link to='/' className = {style.homeStyle}>Home</Link>
+              <Link to='/projekte' className = {style.projekteStyle}>Projekte</Link>
+              <Link to='/leben' className = {style.lebenStyle}>Leben</Link>
             </ul>
           </nav>
         </div>

@@ -32,8 +32,8 @@
     font-weight: 500;
 
     /* Padding */
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .lebenStyle {
@@ -68,11 +68,32 @@
 }
 
 
-.rowStyles  {
+.horizontalStyles  {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paddingStyles {
+  padding-left: 3%;
+  padding-right: 3%;
+  max-height: 200px;
+}
+
+.imageContainer {
+  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+.rowImageStyles{
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .centerStyles {
@@ -89,6 +110,10 @@
     width: 50%;
   }
 
+  .styleHomeText {
+      width: 80%;
+    }
+
 .centerStyles {
     align-items: center;
     max-Width: 500px;
@@ -98,13 +123,22 @@
   align-Items: center;
 }
 
+@media only screen and (min-width: 700px) {
 .mainStyles {
-  display: flex;
+  display: flex;   // --> wird gebraucht für das startBild - stört aber bei der Miniansicht
   flex: 1;
+
   justify-content: space-around;
   align-items: center;
   max-height: 800px;
-}
+}}
+
+@media only screen and (max-width: 700px) {
+.mainStyles {
+  justify-content: space-around;
+  align-items: center;
+  max-height: 800px;
+}}
 
    /* Header */
 .headerStyle {

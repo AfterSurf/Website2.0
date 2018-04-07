@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 
 var headerStyle = {
-  display: 'flex',
+  // display: 'flex',
   flex: 1,
   alignItems: 'stretch',
   justifyContent: 'space-around',
