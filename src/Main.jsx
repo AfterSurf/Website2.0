@@ -14,7 +14,6 @@ var mainStyles = {
   justifyContent: 'space-around',
   alignItems: 'center',
   maxHeigth: '80%',
-
 }
 
 
